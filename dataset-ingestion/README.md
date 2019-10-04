@@ -116,6 +116,6 @@ Load Configuration from : config_ingestion.json
 - ...
 
 ```
-
+-----------------------------
 ### Notes
 You can speed the indexation by increase the number of bulklines to _insert_. It's depend of your computer configuration.
