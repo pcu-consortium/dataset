@@ -1,0 +1,25 @@
+{
+  "elasticSearch" : {
+    "hostName" : "localhost",
+    "port" : 9200,
+    "scheme" : "http"
+  },
+  "dataset" : {
+    "customers" : {
+      "file" : "/home/chdor/Projects/PCU/Scenario/dataset/customers.json",
+      "bulkLines" : 10000
+    },
+    "categories" : {
+      "file" : "/home/chdor/Projects/PCU/Scenario/dataset/categories.json",
+      "bulkLines" : 5000
+    },
+    "products" : {
+      "file" : "/home/chdor/Projects/PCU/Scenario/dataset/products.json",
+      "bulkLines" : 10000
+    },
+    "visits" : {
+      "file" : "/home/chdor/Projects/PCU/Scenario/dataset/visits-split/visits.aa",
+      "bulkLines" : 10000
+    }
+  }
+}
